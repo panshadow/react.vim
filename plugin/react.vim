@@ -3,4 +3,4 @@ if ( exists('g:loaded_react_vim') && g:loaded_react_vim )
 endif
 
 let g:loaded_react_vim = 17
-com! -bar ReactHtmlToJSX call react#HTML2JSX()
+com! -bar -range=% ReactHtmlToJSX call react#HTML2JSX()
